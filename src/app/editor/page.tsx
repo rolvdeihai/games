@@ -5,7 +5,7 @@ import { useSearchParams, useRouter } from 'next/navigation'
 import dynamic from 'next/dynamic'
 import EditorPanel from '@/components/EditorPanel'
 import { GameMap, GameLevel, GameRef } from '@/game/types'
-import { saveMap, saveCustomLevel, loadCustomLevel, loadLockedTemplateLevel, saveLockedTemplateLevel } from '@/lib/storage'
+import { saveMap, saveCustomLevel, loadCustomLevel, loadLockedTemplateLevel, saveLockedTemplateLevel, deleteLockedTemplateLevel } from '@/lib/storage'
 import { fetchTemplateLevel, TEMPLATE_LEVEL_IDS } from '@/game/levels/levelLoader'
 
 const GameCanvas = dynamic(() => import('@/components/GameCanvas'), {
@@ -182,6 +182,26 @@ function EditorPageInner() {
     }
   }, [levelData, isTemplateLevel, isLocked, missionOrder])
 
+  const handleUnlockTemplate = useCallback(async () => {
+    if (!levelData || !isTemplateLevel || !isLocked) return
+    const result = deleteLockedTemplateLevel(levelData.id)
+    if (!result.success) {
+      setSaveError(result.error)
+      return
+    }
+
+    try {
+      const template = await fetchTemplateLevel(levelData.id)
+      setLevelData(template)
+      setMissionOrder(template.missionOrder || [])
+      setIsLocked(false)
+      setSaveError(null)
+    } catch {
+      setSaveError('Template unlocked, but failed to reload editable template.')
+      setIsLocked(false)
+    }
+  }, [levelData, isTemplateLevel, isLocked])
+
   return (
     <main className="w-full h-full flex flex-col">
       <div className="flex items-center gap-3 px-4 py-2 bg-gray-900/90 flex-shrink-0 z-30">
@@ -230,6 +250,7 @@ function EditorPageInner() {
             isTemplateLevel={isTemplateLevel}
             isLocked={isLocked}
             onSaveAndLockTemplate={handleSaveAndLockTemplate}
+            onUnlockTemplate={handleUnlockTemplate}
           />
         </div>
       )}

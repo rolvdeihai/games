@@ -162,6 +162,18 @@ export function loadLockedTemplateLevel(levelId: string): GameLevel | null {
   return levels[levelId] || null
 }
 
+export function deleteLockedTemplateLevel(levelId: string): StorageResult {
+  if (typeof window === 'undefined') return { success: false, error: 'Storage not available (server-side)' }
+  const overrides = loadLockedTemplateLevels()
+  delete overrides[levelId]
+  try {
+    const json = JSON.stringify(overrides)
+    return safeSetLocalStorage(TEMPLATE_OVERRIDES_KEY, json)
+  } catch (error) {
+    return { success: false, error: `Failed to unlock template: ${getStorageErrorMessage(error)}` }
+  }
+}
+
 export function deleteCustomLevel(levelId: string): StorageResult {
   if (typeof window === 'undefined') return { success: false, error: 'Storage not available (server-side)' }
   const customLevels = loadCustomLevels()

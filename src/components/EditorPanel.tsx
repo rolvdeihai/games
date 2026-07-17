@@ -25,6 +25,7 @@ interface EditorPanelProps {
   isTemplateLevel?: boolean
   isLocked?: boolean
   onSaveAndLockTemplate?: () => void
+  onUnlockTemplate?: () => void
 }
 
 export default function EditorPanel({
@@ -39,6 +40,7 @@ export default function EditorPanel({
   isTemplateLevel = false,
   isLocked = false,
   onSaveAndLockTemplate,
+  onUnlockTemplate,
 }: EditorPanelProps) {
   const [editForm, setEditForm] = useState<MapNode | null>(null)
   const [notice, setNotice] = useState('')
@@ -348,6 +350,14 @@ export default function EditorPanel({
               className="w-full px-3 py-1.5 bg-yellow-600 hover:bg-yellow-500 rounded text-sm font-medium text-black"
             >
               Save & Lock Placement
+            </button>
+          )}
+          {isLocked && (
+            <button
+              onClick={onUnlockTemplate}
+              className="w-full px-3 py-1.5 bg-red-700 hover:bg-red-600 rounded text-sm font-medium"
+            >
+              Unlock Placement
             </button>
           )}
         </div>
