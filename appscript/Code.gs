@@ -23,14 +23,26 @@ var NODES_HEADERS = ['Timestamp', 'Map ID', 'Map Name', 'Node ID', 'Node Name', 
 function doPost(e) {
   try {
     var payload = JSON.parse(e.postData.contents)
+
+    // Handle delete action
+    if (payload.action === 'delete' && payload.mapId) {
+      var ss = SpreadsheetApp.getActiveSpreadsheet()
+      deleteMapRows(ss, payload.mapId)
+      return jsonResponse({ success: true, message: 'Deleted map ' + payload.mapId })
+    }
+
+    // Default save action
     var map = payload.map || payload
 
     if (!map || !map.id || !Array.isArray(map.nodes)) {
-      return jsonResponse({ success: false, error: 'Invalid payload: expected { map: { id, nodes, ... } }' })
+      return jsonResponse({ success: false, error: 'Invalid payload' })
     }
 
     var ss = SpreadsheetApp.getActiveSpreadsheet()
     var timestamp = new Date()
+
+    // Delete existing rows for this map before saving new ones (acts like an overwrite/update)
+    deleteMapRows(ss, map.id)
 
     appendMapRow(ss, map, timestamp)
     appendNodeRows(ss, map, timestamp)
@@ -38,6 +50,33 @@ function doPost(e) {
     return jsonResponse({ success: true, mapId: map.id, nodeCount: map.nodes.length })
   } catch (err) {
     return jsonResponse({ success: false, error: String(err) })
+  }
+}
+
+function deleteMapRows(ss, mapId) {
+  // Delete from Maps sheet
+  var mapsSheet = ss.getSheetByName(MAPS_SHEET)
+  if (mapsSheet) {
+    var data = mapsSheet.getDataRange().getValues()
+    // Loop backwards so deleting rows doesn't mess up indices
+    for (var i = data.length - 1; i > 0; i--) {
+      // Map ID is in column 2 (index 1)
+      if (data[i][1] === mapId) {
+        mapsSheet.deleteRow(i + 1)
+      }
+    }
+  }
+
+  // Delete from Nodes sheet
+  var nodesSheet = ss.getSheetByName(NODES_SHEET)
+  if (nodesSheet) {
+    var data = nodesSheet.getDataRange().getValues()
+    for (var i = data.length - 1; i > 0; i--) {
+      // Map ID is in column 2 (index 1)
+      if (data[i][1] === mapId) {
+        nodesSheet.deleteRow(i + 1)
+      }
+    }
   }
 }
 

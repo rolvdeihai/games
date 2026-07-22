@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { GameLevel } from '@/game/types'
 import { loadCustomLevels, deleteCustomLevel, createEmptyCustomLevel, saveCustomLevel } from '@/lib/storage'
+import { deleteMapFromSheet } from '@/lib/appscript'
 import { TEMPLATE_LEVEL_IDS } from '@/game/levels/levelLoader'
 
 interface LevelSelectProps {
@@ -47,11 +48,14 @@ export default function LevelSelect({ onSelectLevel }: LevelSelectProps) {
     onSelectLevel(level, false)
   }
 
-  function handleDeleteCustom(levelId: string, e: React.MouseEvent): void {
+  async function handleDeleteCustom(levelId: string, e: React.MouseEvent): Promise<void> {
     e.stopPropagation()
     const result = deleteCustomLevel(levelId)
     if (!result.success) {
       setErrorMessage(result.error)
+    } else {
+      // Also delete from Google Sheet if linked
+      await deleteMapFromSheet(levelId)
     }
     refreshCustomLevels()
   }

@@ -28,3 +28,24 @@ export async function saveMapToSheet(map: GameMap): Promise<AppscriptSaveResult>
     return { success: false, error: String(err) }
   }
 }
+
+export async function deleteMapFromSheet(mapId: string): Promise<AppscriptSaveResult> {
+  if (!APPSCRIPT_URL) {
+    return { success: false, error: 'NEXT_PUBLIC_APPSCRIPT_URL is not set' }
+  }
+
+  try {
+    const res = await fetch(APPSCRIPT_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+      body: JSON.stringify({ action: 'delete', mapId }),
+    })
+    const data = await res.json()
+    if (!data.success) {
+      return { success: false, error: data.error || 'Unknown error' }
+    }
+    return { success: true }
+  } catch (err) {
+    return { success: false, error: String(err) }
+  }
+}
