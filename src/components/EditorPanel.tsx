@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { GameMap, MapNode, GameLevel, GameRef } from '@/game/types'
 import { saveCustomLevel } from '@/lib/storage'
+import { saveMapToSheet } from '@/lib/appscript'
 
 const MAX_BG_UPLOAD_BYTES = 1 * 1024 * 1024
 
@@ -48,6 +49,7 @@ export default function EditorPanel({
   const [levelName, setLevelName] = useState(levelData?.name || '')
   const [bgUrl, setBgUrl] = useState(levelData?.background || '/maps/maps.png')
   const [showAddMission, setShowAddMission] = useState(false)
+  const [savingToSheet, setSavingToSheet] = useState(false)
 
   useEffect(() => {
     if (selectedNode) {
@@ -164,6 +166,16 @@ export default function EditorPanel({
     a.download = levelData ? `${levelData.name.replace(/\s+/g, '_').toLowerCase()}.json` : 'map.json'
     a.click()
     URL.revokeObjectURL(url)
+  }
+
+  async function handleSaveToSheet(): Promise<void> {
+    const map = gameRef.current?.exportMap()
+    if (!map) return
+
+    setSavingToSheet(true)
+    const result = await saveMapToSheet(map)
+    setSavingToSheet(false)
+    setNotice(result.success ? 'Map saved to Google Sheet!' : `Sheet save failed: ${result.error}`)
   }
 
   function handleImport(): void {
@@ -417,6 +429,13 @@ export default function EditorPanel({
           className="flex-1 px-3 py-1 bg-blue-700 hover:bg-blue-600 disabled:opacity-40 disabled:hover:bg-blue-700 rounded text-sm"
         >
           Import
+        </button>
+        <button
+          onClick={handleSaveToSheet}
+          disabled={savingToSheet}
+          className="flex-1 px-3 py-1 bg-orange-700 hover:bg-orange-600 disabled:opacity-40 disabled:hover:bg-orange-700 rounded text-sm"
+        >
+          {savingToSheet ? 'Saving...' : 'Save to Sheet'}
         </button>
       </div>
 
