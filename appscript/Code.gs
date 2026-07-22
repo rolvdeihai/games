@@ -126,6 +126,9 @@ function getOrCreateSheet(ss, name, headers) {
     sheet = ss.insertSheet(name)
     sheet.appendRow(headers)
     sheet.setFrozenRows(1)
+  } else if (sheet.getLastRow() === 0) {
+    sheet.appendRow(headers)
+    sheet.setFrozenRows(1)
   }
   return sheet
 }
