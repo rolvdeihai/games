@@ -166,6 +166,23 @@ export default function GameCanvas({
     }
   }, [mode])
 
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      const target = e.target as HTMLElement;
+      // If the user is typing in an input/textarea, stop the event from reaching Phaser
+      if (
+        target.tagName === 'INPUT' ||
+        target.tagName === 'TEXTAREA' ||
+        target.closest?.('input, textarea, [contenteditable="true"]')
+      ) {
+        e.stopPropagation();
+      }
+    };
+    // Use capture phase to intercept before Phaser's listener
+    window.addEventListener('keydown', handleKeyDown, true);
+    return () => window.removeEventListener('keydown', handleKeyDown, true);
+  }, []);
+
   return (
     <div
       ref={containerRef}

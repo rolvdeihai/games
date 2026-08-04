@@ -47,7 +47,7 @@ export class CharacterSystem {
     this.sprite = this.scene.add.sprite(x, y, 'char_0')
     this.sprite.setDisplaySize(CHAR_SIZE, CHAR_SIZE)
     this.sprite.setDepth(5)
-    this.sprite.setOrigin(0.5, 0.75)
+    this.sprite.setOrigin(0.5, 0.5)
   }
 
   setRoadSystem(rs: RoadSystem): void {

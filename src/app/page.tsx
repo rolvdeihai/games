@@ -30,14 +30,20 @@ export default function HomePage() {
   const [levelData, setLevelData] = useState<GameLevel | undefined>(undefined)
   const [showLevelSelect, setShowLevelSelect] = useState(true)
 
+  function prepareLevel(level: GameLevel): GameLevel {
+    const { missionOrder, ...levelWithoutOrder } = level
+    return levelWithoutOrder as GameLevel
+  }
+
   useEffect(() => {
     const recentId = loadRecentLevelId()
     if (recentId) {
       if (recentId === 'level_1' || recentId === 'level_2' || recentId === 'level_3') {
         const lockedTemplate = loadLockedTemplateLevel(recentId)
         if (lockedTemplate) {
-          setSelectedLevel(lockedTemplate)
-          setLevelData(lockedTemplate)
+          const prepped = prepareLevel(lockedTemplate)
+          setSelectedLevel(prepped)
+          setLevelData(prepped)
           setShowLevelSelect(false)
         } else {
           fetchAndStartLevel(recentId).catch(() => setShowLevelSelect(true))
@@ -45,8 +51,9 @@ export default function HomePage() {
       } else {
         const custom = loadCustomLevel(recentId)
         if (custom) {
-          setSelectedLevel(custom)
-          setLevelData(custom)
+          const prepped = prepareLevel(custom)
+          setSelectedLevel(prepped)
+          setLevelData(prepped)
           setShowLevelSelect(false)
         } else {
           setShowLevelSelect(true)
@@ -60,8 +67,9 @@ export default function HomePage() {
     const lockedTemplate = isTemplate ? loadLockedTemplateLevel(levelId) : null
     const custom = isTemplate ? null : loadCustomLevel(levelId)
     const level = lockedTemplate || custom || await fetchTemplateLevel(levelId)
-    setSelectedLevel(level)
-    setLevelData(level)
+    const prepped = prepareLevel(level)
+    setSelectedLevel(prepped)
+    setLevelData(prepped)
     setShowLevelSelect(false)
     saveRecentLevelId(levelId)
   }
@@ -72,8 +80,9 @@ export default function HomePage() {
       saveRecentLevelId(level.id)
       fetchAndStartLevel(level.id)
     } else {
-      setSelectedLevel(level)
-      setLevelData(level)
+      const prepped = prepareLevel(level)
+      setSelectedLevel(prepped)
+      setLevelData(prepped)
       setShowLevelSelect(false)
       saveRecentLevelId(level.id)
     }
@@ -113,13 +122,11 @@ export default function HomePage() {
         joystickRef={joystickRef}
         gameRef={gameRef}
       />
-      <button
-        onClick={handleBackToMenu}
-        className="absolute top-3 right-3 z-30 px-3 py-1 bg-gray-800/80 hover:bg-gray-700 rounded text-white text-xs pointer-events-auto"
-      >
-        Menu
-      </button>
-      <HUD mission={mission} completedCount={completedCount} />
+      <HUD
+        mission={mission}
+        completedCount={completedCount}
+        onMenu={handleBackToMenu}
+      />
       <Compass />
       <VirtualJoystick
         onInput={(dx, dy) => {

@@ -97,1279 +97,177 @@
     "L3_LEFT_4_4"
   ],
   "roads": [
-    {
-      "from": "L0_CENTER",
-      "to": "L1_TOP"
-    },
-    {
-      "from": "L1_TOP",
-      "to": "L2_TOP_1"
-    },
-    {
-      "from": "L2_TOP_1",
-      "to": "L3_TOP_1_1"
-    },
-    {
-      "from": "L2_TOP_1",
-      "to": "L3_TOP_1_2"
-    },
-    {
-      "from": "L2_TOP_1",
-      "to": "L3_TOP_1_3"
-    },
-    {
-      "from": "L2_TOP_1",
-      "to": "L3_TOP_1_4"
-    },
-    {
-      "from": "L1_TOP",
-      "to": "L2_TOP_2"
-    },
-    {
-      "from": "L2_TOP_2",
-      "to": "L3_TOP_2_1"
-    },
-    {
-      "from": "L2_TOP_2",
-      "to": "L3_TOP_2_2"
-    },
-    {
-      "from": "L2_TOP_2",
-      "to": "L3_TOP_2_3"
-    },
-    {
-      "from": "L2_TOP_2",
-      "to": "L3_TOP_2_4"
-    },
-    {
-      "from": "L1_TOP",
-      "to": "L2_TOP_3"
-    },
-    {
-      "from": "L2_TOP_3",
-      "to": "L3_TOP_3_1"
-    },
-    {
-      "from": "L2_TOP_3",
-      "to": "L3_TOP_3_2"
-    },
-    {
-      "from": "L2_TOP_3",
-      "to": "L3_TOP_3_3"
-    },
-    {
-      "from": "L2_TOP_3",
-      "to": "L3_TOP_3_4"
-    },
-    {
-      "from": "L1_TOP",
-      "to": "L2_TOP_4"
-    },
-    {
-      "from": "L2_TOP_4",
-      "to": "L3_TOP_4_1"
-    },
-    {
-      "from": "L2_TOP_4",
-      "to": "L3_TOP_4_2"
-    },
-    {
-      "from": "L2_TOP_4",
-      "to": "L3_TOP_4_3"
-    },
-    {
-      "from": "L2_TOP_4",
-      "to": "L3_TOP_4_4"
-    },
-    {
-      "from": "L0_CENTER",
-      "to": "L1_RIGHT"
-    },
-    {
-      "from": "L1_RIGHT",
-      "to": "L2_RIGHT_1"
-    },
-    {
-      "from": "L2_RIGHT_1",
-      "to": "L3_RIGHT_1_1"
-    },
-    {
-      "from": "L2_RIGHT_1",
-      "to": "L3_RIGHT_1_2"
-    },
-    {
-      "from": "L2_RIGHT_1",
-      "to": "L3_RIGHT_1_3"
-    },
-    {
-      "from": "L2_RIGHT_1",
-      "to": "L3_RIGHT_1_4"
-    },
-    {
-      "from": "L1_RIGHT",
-      "to": "L2_RIGHT_2"
-    },
-    {
-      "from": "L2_RIGHT_2",
-      "to": "L3_RIGHT_2_1"
-    },
-    {
-      "from": "L2_RIGHT_2",
-      "to": "L3_RIGHT_2_2"
-    },
-    {
-      "from": "L2_RIGHT_2",
-      "to": "L3_RIGHT_2_3"
-    },
-    {
-      "from": "L2_RIGHT_2",
-      "to": "L3_RIGHT_2_4"
-    },
-    {
-      "from": "L1_RIGHT",
-      "to": "L2_RIGHT_3"
-    },
-    {
-      "from": "L2_RIGHT_3",
-      "to": "L3_RIGHT_3_1"
-    },
-    {
-      "from": "L2_RIGHT_3",
-      "to": "L3_RIGHT_3_2"
-    },
-    {
-      "from": "L2_RIGHT_3",
-      "to": "L3_RIGHT_3_3"
-    },
-    {
-      "from": "L2_RIGHT_3",
-      "to": "L3_RIGHT_3_4"
-    },
-    {
-      "from": "L1_RIGHT",
-      "to": "L2_RIGHT_4"
-    },
-    {
-      "from": "L2_RIGHT_4",
-      "to": "L3_RIGHT_4_1"
-    },
-    {
-      "from": "L2_RIGHT_4",
-      "to": "L3_RIGHT_4_2"
-    },
-    {
-      "from": "L2_RIGHT_4",
-      "to": "L3_RIGHT_4_3"
-    },
-    {
-      "from": "L2_RIGHT_4",
-      "to": "L3_RIGHT_4_4"
-    },
-    {
-      "from": "L0_CENTER",
-      "to": "L1_BOTTOM"
-    },
-    {
-      "from": "L1_BOTTOM",
-      "to": "L2_BOTTOM_1"
-    },
-    {
-      "from": "L2_BOTTOM_1",
-      "to": "L3_BOTTOM_1_1"
-    },
-    {
-      "from": "L2_BOTTOM_1",
-      "to": "L3_BOTTOM_1_2"
-    },
-    {
-      "from": "L2_BOTTOM_1",
-      "to": "L3_BOTTOM_1_3"
-    },
-    {
-      "from": "L2_BOTTOM_1",
-      "to": "L3_BOTTOM_1_4"
-    },
-    {
-      "from": "L1_BOTTOM",
-      "to": "L2_BOTTOM_2"
-    },
-    {
-      "from": "L2_BOTTOM_2",
-      "to": "L3_BOTTOM_2_1"
-    },
-    {
-      "from": "L2_BOTTOM_2",
-      "to": "L3_BOTTOM_2_2"
-    },
-    {
-      "from": "L2_BOTTOM_2",
-      "to": "L3_BOTTOM_2_3"
-    },
-    {
-      "from": "L2_BOTTOM_2",
-      "to": "L3_BOTTOM_2_4"
-    },
-    {
-      "from": "L1_BOTTOM",
-      "to": "L2_BOTTOM_3"
-    },
-    {
-      "from": "L2_BOTTOM_3",
-      "to": "L3_BOTTOM_3_1"
-    },
-    {
-      "from": "L2_BOTTOM_3",
-      "to": "L3_BOTTOM_3_2"
-    },
-    {
-      "from": "L2_BOTTOM_3",
-      "to": "L3_BOTTOM_3_3"
-    },
-    {
-      "from": "L2_BOTTOM_3",
-      "to": "L3_BOTTOM_3_4"
-    },
-    {
-      "from": "L1_BOTTOM",
-      "to": "L2_BOTTOM_4"
-    },
-    {
-      "from": "L2_BOTTOM_4",
-      "to": "L3_BOTTOM_4_1"
-    },
-    {
-      "from": "L2_BOTTOM_4",
-      "to": "L3_BOTTOM_4_2"
-    },
-    {
-      "from": "L2_BOTTOM_4",
-      "to": "L3_BOTTOM_4_3"
-    },
-    {
-      "from": "L2_BOTTOM_4",
-      "to": "L3_BOTTOM_4_4"
-    },
-    {
-      "from": "L0_CENTER",
-      "to": "L1_LEFT"
-    },
-    {
-      "from": "L1_LEFT",
-      "to": "L2_LEFT_1"
-    },
-    {
-      "from": "L2_LEFT_1",
-      "to": "L3_LEFT_1_1"
-    },
-    {
-      "from": "L2_LEFT_1",
-      "to": "L3_LEFT_1_2"
-    },
-    {
-      "from": "L2_LEFT_1",
-      "to": "L3_LEFT_1_3"
-    },
-    {
-      "from": "L2_LEFT_1",
-      "to": "L3_LEFT_1_4"
-    },
-    {
-      "from": "L1_LEFT",
-      "to": "L2_LEFT_2"
-    },
-    {
-      "from": "L2_LEFT_2",
-      "to": "L3_LEFT_2_1"
-    },
-    {
-      "from": "L2_LEFT_2",
-      "to": "L3_LEFT_2_2"
-    },
-    {
-      "from": "L2_LEFT_2",
-      "to": "L3_LEFT_2_3"
-    },
-    {
-      "from": "L2_LEFT_2",
-      "to": "L3_LEFT_2_4"
-    },
-    {
-      "from": "L1_LEFT",
-      "to": "L2_LEFT_3"
-    },
-    {
-      "from": "L2_LEFT_3",
-      "to": "L3_LEFT_3_1"
-    },
-    {
-      "from": "L2_LEFT_3",
-      "to": "L3_LEFT_3_2"
-    },
-    {
-      "from": "L2_LEFT_3",
-      "to": "L3_LEFT_3_3"
-    },
-    {
-      "from": "L2_LEFT_3",
-      "to": "L3_LEFT_3_4"
-    },
-    {
-      "from": "L1_LEFT",
-      "to": "L2_LEFT_4"
-    },
-    {
-      "from": "L2_LEFT_4",
-      "to": "L3_LEFT_4_1"
-    },
-    {
-      "from": "L2_LEFT_4",
-      "to": "L3_LEFT_4_2"
-    },
-    {
-      "from": "L2_LEFT_4",
-      "to": "L3_LEFT_4_3"
-    },
-    {
-      "from": "L2_LEFT_4",
-      "to": "L3_LEFT_4_4"
-    }
+    {"from":"L0_CENTER","to":"L1_TOP"},
+    {"from":"L1_TOP","to":"L2_TOP_1"},
+    {"from":"L2_TOP_1","to":"L3_TOP_1_1"},
+    {"from":"L2_TOP_1","to":"L3_TOP_1_2"},
+    {"from":"L2_TOP_1","to":"L3_TOP_1_3"},
+    {"from":"L2_TOP_1","to":"L3_TOP_1_4"},
+    {"from":"L1_TOP","to":"L2_TOP_2"},
+    {"from":"L2_TOP_2","to":"L3_TOP_2_1"},
+    {"from":"L2_TOP_2","to":"L3_TOP_2_2"},
+    {"from":"L2_TOP_2","to":"L3_TOP_2_3"},
+    {"from":"L2_TOP_2","to":"L3_TOP_2_4"},
+    {"from":"L1_TOP","to":"L2_TOP_3"},
+    {"from":"L2_TOP_3","to":"L3_TOP_3_1"},
+    {"from":"L2_TOP_3","to":"L3_TOP_3_2"},
+    {"from":"L2_TOP_3","to":"L3_TOP_3_3"},
+    {"from":"L2_TOP_3","to":"L3_TOP_3_4"},
+    {"from":"L1_TOP","to":"L2_TOP_4"},
+    {"from":"L2_TOP_4","to":"L3_TOP_4_1"},
+    {"from":"L2_TOP_4","to":"L3_TOP_4_2"},
+    {"from":"L2_TOP_4","to":"L3_TOP_4_3"},
+    {"from":"L2_TOP_4","to":"L3_TOP_4_4"},
+    {"from":"L0_CENTER","to":"L1_RIGHT"},
+    {"from":"L1_RIGHT","to":"L2_RIGHT_1"},
+    {"from":"L2_RIGHT_1","to":"L3_RIGHT_1_1"},
+    {"from":"L2_RIGHT_1","to":"L3_RIGHT_1_2"},
+    {"from":"L2_RIGHT_1","to":"L3_RIGHT_1_3"},
+    {"from":"L2_RIGHT_1","to":"L3_RIGHT_1_4"},
+    {"from":"L1_RIGHT","to":"L2_RIGHT_2"},
+    {"from":"L2_RIGHT_2","to":"L3_RIGHT_2_1"},
+    {"from":"L2_RIGHT_2","to":"L3_RIGHT_2_2"},
+    {"from":"L2_RIGHT_2","to":"L3_RIGHT_2_3"},
+    {"from":"L2_RIGHT_2","to":"L3_RIGHT_2_4"},
+    {"from":"L1_RIGHT","to":"L2_RIGHT_3"},
+    {"from":"L2_RIGHT_3","to":"L3_RIGHT_3_1"},
+    {"from":"L2_RIGHT_3","to":"L3_RIGHT_3_2"},
+    {"from":"L2_RIGHT_3","to":"L3_RIGHT_3_3"},
+    {"from":"L2_RIGHT_3","to":"L3_RIGHT_3_4"},
+    {"from":"L1_RIGHT","to":"L2_RIGHT_4"},
+    {"from":"L2_RIGHT_4","to":"L3_RIGHT_4_1"},
+    {"from":"L2_RIGHT_4","to":"L3_RIGHT_4_2"},
+    {"from":"L2_RIGHT_4","to":"L3_RIGHT_4_3"},
+    {"from":"L2_RIGHT_4","to":"L3_RIGHT_4_4"},
+    {"from":"L0_CENTER","to":"L1_BOTTOM"},
+    {"from":"L1_BOTTOM","to":"L2_BOTTOM_1"},
+    {"from":"L2_BOTTOM_1","to":"L3_BOTTOM_1_1"},
+    {"from":"L2_BOTTOM_1","to":"L3_BOTTOM_1_2"},
+    {"from":"L2_BOTTOM_1","to":"L3_BOTTOM_1_3"},
+    {"from":"L2_BOTTOM_1","to":"L3_BOTTOM_1_4"},
+    {"from":"L1_BOTTOM","to":"L2_BOTTOM_2"},
+    {"from":"L2_BOTTOM_2","to":"L3_BOTTOM_2_1"},
+    {"from":"L2_BOTTOM_2","to":"L3_BOTTOM_2_2"},
+    {"from":"L2_BOTTOM_2","to":"L3_BOTTOM_2_3"},
+    {"from":"L2_BOTTOM_2","to":"L3_BOTTOM_2_4"},
+    {"from":"L1_BOTTOM","to":"L2_BOTTOM_3"},
+    {"from":"L2_BOTTOM_3","to":"L3_BOTTOM_3_1"},
+    {"from":"L2_BOTTOM_3","to":"L3_BOTTOM_3_2"},
+    {"from":"L2_BOTTOM_3","to":"L3_BOTTOM_3_3"},
+    {"from":"L2_BOTTOM_3","to":"L3_BOTTOM_3_4"},
+    {"from":"L1_BOTTOM","to":"L2_BOTTOM_4"},
+    {"from":"L2_BOTTOM_4","to":"L3_BOTTOM_4_1"},
+    {"from":"L2_BOTTOM_4","to":"L3_BOTTOM_4_2"},
+    {"from":"L2_BOTTOM_4","to":"L3_BOTTOM_4_3"},
+    {"from":"L2_BOTTOM_4","to":"L3_BOTTOM_4_4"},
+    {"from":"L0_CENTER","to":"L1_LEFT"},
+    {"from":"L1_LEFT","to":"L2_LEFT_1"},
+    {"from":"L2_LEFT_1","to":"L3_LEFT_1_1"},
+    {"from":"L2_LEFT_1","to":"L3_LEFT_1_2"},
+    {"from":"L2_LEFT_1","to":"L3_LEFT_1_3"},
+    {"from":"L2_LEFT_1","to":"L3_LEFT_1_4"},
+    {"from":"L1_LEFT","to":"L2_LEFT_2"},
+    {"from":"L2_LEFT_2","to":"L3_LEFT_2_1"},
+    {"from":"L2_LEFT_2","to":"L3_LEFT_2_2"},
+    {"from":"L2_LEFT_2","to":"L3_LEFT_2_3"},
+    {"from":"L2_LEFT_2","to":"L3_LEFT_2_4"},
+    {"from":"L1_LEFT","to":"L2_LEFT_3"},
+    {"from":"L2_LEFT_3","to":"L3_LEFT_3_1"},
+    {"from":"L2_LEFT_3","to":"L3_LEFT_3_2"},
+    {"from":"L2_LEFT_3","to":"L3_LEFT_3_3"},
+    {"from":"L2_LEFT_3","to":"L3_LEFT_3_4"},
+    {"from":"L1_LEFT","to":"L2_LEFT_4"},
+    {"from":"L2_LEFT_4","to":"L3_LEFT_4_1"},
+    {"from":"L2_LEFT_4","to":"L3_LEFT_4_2"},
+    {"from":"L2_LEFT_4","to":"L3_LEFT_4_3"},
+    {"from":"L2_LEFT_4","to":"L3_LEFT_4_4"}
   ],
   "nodes": [
-    {
-      "id": "L0_CENTER",
-      "name": "Central School & City Hall",
-      "type": "center",
-      "purpose": "road",
-      "x": 50,
-      "y": 60,
-      "radius": 5,
-      "district": "CITY CENTER",
-      "notes": "layer=0; category=civic; parent=none; children=L1_TOP,L1_RIGHT,L1_BOTTOM,L1_LEFT"
-    },
-    {
-      "id": "L1_TOP",
-      "name": "Northern Market Promenade",
-      "type": "poi",
-      "purpose": "shop",
-      "x": 50,
-      "y": 20,
-      "radius": 4,
-      "district": "TOP - MARKET",
-      "notes": "layer=1; category=market; parent=L0_CENTER; children=L2_TOP_1,L2_TOP_2,L2_TOP_3,L2_TOP_4"
-    },
-    {
-      "id": "L2_TOP_1",
-      "name": "Beauty & Personal Care Row",
-      "type": "poi",
-      "purpose": "service",
-      "x": 18,
-      "y": 7,
-      "radius": 3,
-      "district": "TOP - SERVICE",
-      "notes": "layer=2; category=service; parent=L1_TOP; children=L3_TOP_1_1,L3_TOP_1_2,L3_TOP_1_3,L3_TOP_1_4"
-    },
-    {
-      "id": "L3_TOP_1_1",
-      "name": "Customer Service Desk",
-      "type": "poi",
-      "purpose": "service",
-      "x": 9,
-      "y": 7,
-      "radius": 3,
-      "district": "TOP - SERVICE",
-      "notes": "layer=3; category=service; parent=L2_TOP_1; children=none"
-    },
-    {
-      "id": "L3_TOP_1_2",
-      "name": "Beauty Salon",
-      "type": "poi",
-      "purpose": "service",
-      "x": 15,
-      "y": 4,
-      "radius": 3,
-      "district": "TOP - SERVICE",
-      "notes": "layer=3; category=service; parent=L2_TOP_1; children=none"
-    },
-    {
-      "id": "L3_TOP_1_3",
-      "name": "Barbershop",
-      "type": "poi",
-      "purpose": "service",
-      "x": 23,
-      "y": 5,
-      "radius": 3,
-      "district": "TOP - SERVICE",
-      "notes": "layer=3; category=service; parent=L2_TOP_1; children=none"
-    },
-    {
-      "id": "L3_TOP_1_4",
-      "name": "Welcome Counter",
-      "type": "poi",
-      "purpose": "service",
-      "x": 12,
-      "y": 13,
-      "radius": 3,
-      "district": "TOP - SERVICE",
-      "notes": "layer=3; category=service; parent=L2_TOP_1; children=none"
-    },
-    {
-      "id": "L2_TOP_2",
-      "name": "Fresh Market Arcade",
-      "type": "poi",
-      "purpose": "shop",
-      "x": 39,
-      "y": 10,
-      "radius": 3,
-      "district": "TOP - MARKET",
-      "notes": "layer=2; category=market; parent=L1_TOP; children=L3_TOP_2_1,L3_TOP_2_2,L3_TOP_2_3,L3_TOP_2_4"
-    },
-    {
-      "id": "L3_TOP_2_1",
-      "name": "Supermarket",
-      "type": "poi",
-      "purpose": "shop",
-      "x": 35,
-      "y": 4,
-      "radius": 3,
-      "district": "TOP - MARKET",
-      "notes": "layer=3; category=market; parent=L2_TOP_2; children=none"
-    },
-    {
-      "id": "L3_TOP_2_2",
-      "name": "Street Produce Stall",
-      "type": "poi",
-      "purpose": "shop",
-      "x": 34,
-      "y": 11,
-      "radius": 3,
-      "district": "TOP - MARKET",
-      "notes": "layer=3; category=market; parent=L2_TOP_2; children=none"
-    },
-    {
-      "id": "L3_TOP_2_3",
-      "name": "Butcher Shop",
-      "type": "poi",
-      "purpose": "shop",
-      "x": 43,
-      "y": 4,
-      "radius": 3,
-      "district": "TOP - MARKET",
-      "notes": "layer=3; category=market; parent=L2_TOP_2; children=none"
-    },
-    {
-      "id": "L3_TOP_2_4",
-      "name": "Cafe Corner",
-      "type": "poi",
-      "purpose": "shop",
-      "x": 43,
-      "y": 10,
-      "radius": 3,
-      "district": "TOP - FOOD",
-      "notes": "layer=3; category=food; parent=L2_TOP_2; children=none"
-    },
-    {
-      "id": "L2_TOP_3",
-      "name": "Restaurant & Play Plaza",
-      "type": "poi",
-      "purpose": "play",
-      "x": 51,
-      "y": 17,
-      "radius": 3,
-      "district": "TOP - ENTERTAINMENT",
-      "notes": "layer=2; category=entertainment; parent=L1_TOP; children=L3_TOP_3_1,L3_TOP_3_2,L3_TOP_3_3,L3_TOP_3_4"
-    },
-    {
-      "id": "L3_TOP_3_1",
-      "name": "Lottery Shop",
-      "type": "poi",
-      "purpose": "shop",
-      "x": 34,
-      "y": 20,
-      "radius": 3,
-      "district": "TOP - SHOPPING",
-      "notes": "layer=3; category=shopping; parent=L2_TOP_3; children=none"
-    },
-    {
-      "id": "L3_TOP_3_2",
-      "name": "Restaurant",
-      "type": "poi",
-      "purpose": "shop",
-      "x": 47,
-      "y": 20,
-      "radius": 3,
-      "district": "TOP - FOOD",
-      "notes": "layer=3; category=food; parent=L2_TOP_3; children=none"
-    },
-    {
-      "id": "L3_TOP_3_3",
-      "name": "Playground Slide",
-      "type": "poi",
-      "purpose": "play",
-      "x": 57,
-      "y": 19,
-      "radius": 3,
-      "district": "TOP - PARK",
-      "notes": "layer=3; category=park; parent=L2_TOP_3; children=none"
-    },
-    {
-      "id": "L3_TOP_3_4",
-      "name": "Dairy Stand",
-      "type": "poi",
-      "purpose": "shop",
-      "x": 69,
-      "y": 21,
-      "radius": 3,
-      "district": "TOP - FOOD",
-      "notes": "layer=3; category=food; parent=L2_TOP_3; children=none"
-    },
-    {
-      "id": "L2_TOP_4",
-      "name": "Neon Entertainment Strip",
-      "type": "poi",
-      "purpose": "play",
-      "x": 77,
-      "y": 7,
-      "radius": 3,
-      "district": "TOP - ENTERTAINMENT",
-      "notes": "layer=2; category=entertainment; parent=L1_TOP; children=L3_TOP_4_1,L3_TOP_4_2,L3_TOP_4_3,L3_TOP_4_4"
-    },
-    {
-      "id": "L3_TOP_4_1",
-      "name": "Mini Mart",
-      "type": "poi",
-      "purpose": "shop",
-      "x": 55,
-      "y": 5,
-      "radius": 3,
-      "district": "TOP - SHOPPING",
-      "notes": "layer=3; category=shopping; parent=L2_TOP_4; children=none"
-    },
-    {
-      "id": "L3_TOP_4_2",
-      "name": "Game Time Arcade",
-      "type": "poi",
-      "purpose": "play",
-      "x": 60,
-      "y": 5,
-      "radius": 3,
-      "district": "TOP - ENTERTAINMENT",
-      "notes": "layer=3; category=entertainment; parent=L2_TOP_4; children=none"
-    },
-    {
-      "id": "L3_TOP_4_3",
-      "name": "Bingo Hall",
-      "type": "poi",
-      "purpose": "play",
-      "x": 69,
-      "y": 5,
-      "radius": 3,
-      "district": "TOP - ENTERTAINMENT",
-      "notes": "layer=3; category=entertainment; parent=L2_TOP_4; children=none"
-    },
-    {
-      "id": "L3_TOP_4_4",
-      "name": "Night Club",
-      "type": "poi",
-      "purpose": "play",
-      "x": 77,
-      "y": 5,
-      "radius": 3,
-      "district": "TOP - ENTERTAINMENT",
-      "notes": "layer=3; category=entertainment; parent=L2_TOP_4; children=none"
-    },
-    {
-      "id": "L1_RIGHT",
-      "name": "Eastern Civic & Leisure District",
-      "type": "poi",
-      "purpose": "visit",
-      "x": 76,
-      "y": 52,
-      "radius": 4,
-      "district": "RIGHT - CIVIC",
-      "notes": "layer=1; category=civic; parent=L0_CENTER; children=L2_RIGHT_1,L2_RIGHT_2,L2_RIGHT_3,L2_RIGHT_4"
-    },
-    {
-      "id": "L2_RIGHT_1",
-      "name": "Health Services Campus",
-      "type": "poi",
-      "purpose": "service",
-      "x": 84,
-      "y": 24,
-      "radius": 3,
-      "district": "RIGHT - HEALTH",
-      "notes": "layer=2; category=health; parent=L1_RIGHT; children=L3_RIGHT_1_1,L3_RIGHT_1_2,L3_RIGHT_1_3,L3_RIGHT_1_4"
-    },
-    {
-      "id": "L3_RIGHT_1_1",
-      "name": "Gas Station North",
-      "type": "poi",
-      "purpose": "work",
-      "x": 86,
-      "y": 19,
-      "radius": 3,
-      "district": "RIGHT - TRANSPORT",
-      "notes": "layer=3; category=transport; parent=L2_RIGHT_1; children=none"
-    },
-    {
-      "id": "L3_RIGHT_1_2",
-      "name": "Pharmacy",
-      "type": "poi",
-      "purpose": "service",
-      "x": 93,
-      "y": 18,
-      "radius": 3,
-      "district": "RIGHT - HEALTH",
-      "notes": "layer=3; category=health; parent=L2_RIGHT_1; children=none"
-    },
-    {
-      "id": "L3_RIGHT_1_3",
-      "name": "Hospital",
-      "type": "poi",
-      "purpose": "service",
-      "x": 74,
-      "y": 32,
-      "radius": 3,
-      "district": "RIGHT - HEALTH",
-      "notes": "layer=3; category=health; parent=L2_RIGHT_1; children=none"
-    },
-    {
-      "id": "L3_RIGHT_1_4",
-      "name": "Medical Lab",
-      "type": "poi",
-      "purpose": "service",
-      "x": 94,
-      "y": 28,
-      "radius": 3,
-      "district": "RIGHT - HEALTH",
-      "notes": "layer=3; category=health; parent=L2_RIGHT_1; children=none"
-    },
-    {
-      "id": "L2_RIGHT_2",
-      "name": "Sports Park",
-      "type": "poi",
-      "purpose": "play",
-      "x": 84,
-      "y": 41,
-      "radius": 3,
-      "district": "RIGHT - PARK",
-      "notes": "layer=2; category=park; parent=L1_RIGHT; children=L3_RIGHT_2_1,L3_RIGHT_2_2,L3_RIGHT_2_3,L3_RIGHT_2_4"
-    },
-    {
-      "id": "L3_RIGHT_2_1",
-      "name": "Helipad",
-      "type": "poi",
-      "purpose": "work",
-      "x": 86,
-      "y": 28,
-      "radius": 3,
-      "district": "RIGHT - TRANSPORT",
-      "notes": "layer=3; category=transport; parent=L2_RIGHT_2; children=none"
-    },
-    {
-      "id": "L3_RIGHT_2_2",
-      "name": "Football Pitch",
-      "type": "poi",
-      "purpose": "play",
-      "x": 76,
-      "y": 39,
-      "radius": 3,
-      "district": "RIGHT - PARK",
-      "notes": "layer=3; category=park; parent=L2_RIGHT_2; children=none"
-    },
-    {
-      "id": "L3_RIGHT_2_3",
-      "name": "Swimming Pool",
-      "type": "poi",
-      "purpose": "play",
-      "x": 90,
-      "y": 40,
-      "radius": 3,
-      "district": "RIGHT - PARK",
-      "notes": "layer=3; category=park; parent=L2_RIGHT_2; children=none"
-    },
-    {
-      "id": "L3_RIGHT_2_4",
-      "name": "Picnic Seating Area",
-      "type": "poi",
-      "purpose": "play",
-      "x": 91,
-      "y": 48,
-      "radius": 3,
-      "district": "RIGHT - PARK",
-      "notes": "layer=3; category=park; parent=L2_RIGHT_2; children=none"
-    },
-    {
-      "id": "L2_RIGHT_3",
-      "name": "Shopping & Repair Loop",
-      "type": "poi",
-      "purpose": "shop",
-      "x": 87,
-      "y": 62,
-      "radius": 3,
-      "district": "RIGHT - SHOPPING",
-      "notes": "layer=2; category=shopping; parent=L1_RIGHT; children=L3_RIGHT_3_1,L3_RIGHT_3_2,L3_RIGHT_3_3,L3_RIGHT_3_4"
-    },
-    {
-      "id": "L3_RIGHT_3_1",
-      "name": "Clothing Shop",
-      "type": "poi",
-      "purpose": "shop",
-      "x": 76,
-      "y": 55,
-      "radius": 3,
-      "district": "RIGHT - SHOPPING",
-      "notes": "layer=3; category=shopping; parent=L2_RIGHT_3; children=none"
-    },
-    {
-      "id": "L3_RIGHT_3_2",
-      "name": "Public Restroom",
-      "type": "poi",
-      "purpose": "service",
-      "x": 84,
-      "y": 58,
-      "radius": 3,
-      "district": "RIGHT - SERVICE",
-      "notes": "layer=3; category=service; parent=L2_RIGHT_3; children=none"
-    },
-    {
-      "id": "L3_RIGHT_3_3",
-      "name": "Fantasy Store",
-      "type": "poi",
-      "purpose": "shop",
-      "x": 94,
-      "y": 58,
-      "radius": 3,
-      "district": "RIGHT - SHOPPING",
-      "notes": "layer=3; category=shopping; parent=L2_RIGHT_3; children=none"
-    },
-    {
-      "id": "L3_RIGHT_3_4",
-      "name": "Storage Warehouse",
-      "type": "poi",
-      "purpose": "work",
-      "x": 86,
-      "y": 64,
-      "radius": 3,
-      "district": "RIGHT - LOGISTICS",
-      "notes": "layer=3; category=logistics; parent=L2_RIGHT_3; children=none"
-    },
-    {
-      "id": "L2_RIGHT_4",
-      "name": "Auto & Industry Zone",
-      "type": "poi",
-      "purpose": "work",
-      "x": 88,
-      "y": 81,
-      "radius": 3,
-      "district": "RIGHT - TRANSPORT",
-      "notes": "layer=2; category=transport; parent=L1_RIGHT; children=L3_RIGHT_4_1,L3_RIGHT_4_2,L3_RIGHT_4_3,L3_RIGHT_4_4"
-    },
-    {
-      "id": "L3_RIGHT_4_1",
-      "name": "Petrol Station",
-      "type": "poi",
-      "purpose": "work",
-      "x": 87,
-      "y": 74,
-      "radius": 3,
-      "district": "RIGHT - TRANSPORT",
-      "notes": "layer=3; category=transport; parent=L2_RIGHT_4; children=none"
-    },
-    {
-      "id": "L3_RIGHT_4_2",
-      "name": "Factory Gate",
-      "type": "poi",
-      "purpose": "work",
-      "x": 94,
-      "y": 75,
-      "radius": 3,
-      "district": "RIGHT - INDUSTRY",
-      "notes": "layer=3; category=industry; parent=L2_RIGHT_4; children=none"
-    },
-    {
-      "id": "L3_RIGHT_4_3",
-      "name": "Car Dealer",
-      "type": "poi",
-      "purpose": "work",
-      "x": 86,
-      "y": 84,
-      "radius": 3,
-      "district": "RIGHT - TRANSPORT",
-      "notes": "layer=3; category=transport; parent=L2_RIGHT_4; children=none"
-    },
-    {
-      "id": "L3_RIGHT_4_4",
-      "name": "Auto Repair Garage",
-      "type": "poi",
-      "purpose": "work",
-      "x": 94,
-      "y": 84,
-      "radius": 3,
-      "district": "RIGHT - TRANSPORT",
-      "notes": "layer=3; category=transport; parent=L2_RIGHT_4; children=none"
-    },
-    {
-      "id": "L1_BOTTOM",
-      "name": "Southern Education & Faith Corridor",
-      "type": "poi",
-      "purpose": "visit",
-      "x": 50,
-      "y": 72,
-      "radius": 4,
-      "district": "BOTTOM - EDUCATION",
-      "notes": "layer=1; category=education; parent=L0_CENTER; children=L2_BOTTOM_1,L2_BOTTOM_2,L2_BOTTOM_3,L2_BOTTOM_4"
-    },
-    {
-      "id": "L2_BOTTOM_1",
-      "name": "Library & Study Street",
-      "type": "poi",
-      "purpose": "visit",
-      "x": 34,
-      "y": 84,
-      "radius": 3,
-      "district": "BOTTOM - EDUCATION",
-      "notes": "layer=2; category=education; parent=L1_BOTTOM; children=L3_BOTTOM_1_1,L3_BOTTOM_1_2,L3_BOTTOM_1_3,L3_BOTTOM_1_4"
-    },
-    {
-      "id": "L3_BOTTOM_1_1",
-      "name": "Library",
-      "type": "poi",
-      "purpose": "visit",
-      "x": 36,
-      "y": 75,
-      "radius": 3,
-      "district": "BOTTOM - EDUCATION",
-      "notes": "layer=3; category=education; parent=L2_BOTTOM_1; children=none"
-    },
-    {
-      "id": "L3_BOTTOM_1_2",
-      "name": "Stationery Shop",
-      "type": "poi",
-      "purpose": "shop",
-      "x": 27,
-      "y": 83,
-      "radius": 3,
-      "district": "BOTTOM - SHOPPING",
-      "notes": "layer=3; category=shopping; parent=L2_BOTTOM_1; children=none"
-    },
-    {
-      "id": "L3_BOTTOM_1_3",
-      "name": "Classroom Sketch Hall",
-      "type": "poi",
-      "purpose": "visit",
-      "x": 28,
-      "y": 92,
-      "radius": 3,
-      "district": "BOTTOM - EDUCATION",
-      "notes": "layer=3; category=education; parent=L2_BOTTOM_1; children=none"
-    },
-    {
-      "id": "L3_BOTTOM_1_4",
-      "name": "Blue Shopfront",
-      "type": "poi",
-      "purpose": "shop",
-      "x": 34,
-      "y": 92,
-      "radius": 3,
-      "district": "BOTTOM - SHOPPING",
-      "notes": "layer=3; category=shopping; parent=L2_BOTTOM_1; children=none"
-    },
-    {
-      "id": "L2_BOTTOM_2",
-      "name": "Faith Plaza",
-      "type": "poi",
-      "purpose": "visit",
-      "x": 46,
-      "y": 91,
-      "radius": 3,
-      "district": "BOTTOM - RELIGION",
-      "notes": "layer=2; category=religion; parent=L1_BOTTOM; children=L3_BOTTOM_2_1,L3_BOTTOM_2_2,L3_BOTTOM_2_3,L3_BOTTOM_2_4"
-    },
-    {
-      "id": "L3_BOTTOM_2_1",
-      "name": "Church",
-      "type": "poi",
-      "purpose": "visit",
-      "x": 45,
-      "y": 76,
-      "radius": 3,
-      "district": "BOTTOM - RELIGION",
-      "notes": "layer=3; category=religion; parent=L2_BOTTOM_2; children=none"
-    },
-    {
-      "id": "L3_BOTTOM_2_2",
-      "name": "Mosque Community Center",
-      "type": "poi",
-      "purpose": "visit",
-      "x": 43,
-      "y": 90,
-      "radius": 3,
-      "district": "BOTTOM - RELIGION",
-      "notes": "layer=3; category=religion; parent=L2_BOTTOM_2; children=none"
-    },
-    {
-      "id": "L3_BOTTOM_2_3",
-      "name": "Grand Mosque",
-      "type": "poi",
-      "purpose": "visit",
-      "x": 49,
-      "y": 91,
-      "radius": 3,
-      "district": "BOTTOM - RELIGION",
-      "notes": "layer=3; category=religion; parent=L2_BOTTOM_2; children=none"
-    },
-    {
-      "id": "L3_BOTTOM_2_4",
-      "name": "Temple Shrine",
-      "type": "poi",
-      "purpose": "visit",
-      "x": 43,
-      "y": 97,
-      "radius": 3,
-      "district": "BOTTOM - RELIGION",
-      "notes": "layer=3; category=religion; parent=L2_BOTTOM_2; children=none"
-    },
-    {
-      "id": "L2_BOTTOM_3",
-      "name": "College & Office Lane",
-      "type": "poi",
-      "purpose": "visit",
-      "x": 57,
-      "y": 85,
-      "radius": 3,
-      "district": "BOTTOM - EDUCATION",
-      "notes": "layer=2; category=education; parent=L1_BOTTOM; children=L3_BOTTOM_3_1,L3_BOTTOM_3_2,L3_BOTTOM_3_3,L3_BOTTOM_3_4"
-    },
-    {
-      "id": "L3_BOTTOM_3_1",
-      "name": "College",
-      "type": "poi",
-      "purpose": "visit",
-      "x": 57,
-      "y": 76,
-      "radius": 3,
-      "district": "BOTTOM - EDUCATION",
-      "notes": "layer=3; category=education; parent=L2_BOTTOM_3; children=none"
-    },
-    {
-      "id": "L3_BOTTOM_3_2",
-      "name": "Apartment Block",
-      "type": "poi",
-      "purpose": "visit",
-      "x": 56,
-      "y": 88,
-      "radius": 3,
-      "district": "BOTTOM - RESIDENTIAL",
-      "notes": "layer=3; category=residential; parent=L2_BOTTOM_3; children=none"
-    },
-    {
-      "id": "L3_BOTTOM_3_3",
-      "name": "Canteen",
-      "type": "poi",
-      "purpose": "shop",
-      "x": 62,
-      "y": 88,
-      "radius": 3,
-      "district": "BOTTOM - FOOD",
-      "notes": "layer=3; category=food; parent=L2_BOTTOM_3; children=none"
-    },
-    {
-      "id": "L3_BOTTOM_3_4",
-      "name": "Office Building",
-      "type": "poi",
-      "purpose": "work",
-      "x": 57,
-      "y": 96,
-      "radius": 3,
-      "district": "BOTTOM - OFFICE",
-      "notes": "layer=3; category=office; parent=L2_BOTTOM_3; children=none"
-    },
-    {
-      "id": "L2_BOTTOM_4",
-      "name": "Civic Green & Utility Yard",
-      "type": "poi",
-      "purpose": "visit",
-      "x": 73,
-      "y": 89,
-      "radius": 3,
-      "district": "BOTTOM - CIVIC",
-      "notes": "layer=2; category=civic; parent=L1_BOTTOM; children=L3_BOTTOM_4_1,L3_BOTTOM_4_2,L3_BOTTOM_4_3,L3_BOTTOM_4_4"
-    },
-    {
-      "id": "L3_BOTTOM_4_1",
-      "name": "Town Gate Hall",
-      "type": "poi",
-      "purpose": "visit",
-      "x": 68,
-      "y": 77,
-      "radius": 3,
-      "district": "BOTTOM - CIVIC",
-      "notes": "layer=3; category=civic; parent=L2_BOTTOM_4; children=none"
-    },
-    {
-      "id": "L3_BOTTOM_4_2",
-      "name": "Countryside Notice Board",
-      "type": "poi",
-      "purpose": "play",
-      "x": 70,
-      "y": 89,
-      "radius": 3,
-      "district": "BOTTOM - PARK",
-      "notes": "layer=3; category=park; parent=L2_BOTTOM_4; children=none"
-    },
-    {
-      "id": "L3_BOTTOM_4_3",
-      "name": "Industrial Plant",
-      "type": "poi",
-      "purpose": "work",
-      "x": 71,
-      "y": 96,
-      "radius": 3,
-      "district": "BOTTOM - INDUSTRY",
-      "notes": "layer=3; category=industry; parent=L2_BOTTOM_4; children=none"
-    },
-    {
-      "id": "L3_BOTTOM_4_4",
-      "name": "Water Tower Field",
-      "type": "poi",
-      "purpose": "work",
-      "x": 78,
-      "y": 93,
-      "radius": 3,
-      "district": "BOTTOM - UTILITY",
-      "notes": "layer=3; category=utility; parent=L2_BOTTOM_4; children=none"
-    },
-    {
-      "id": "L1_LEFT",
-      "name": "Western Neighborhood Services",
-      "type": "poi",
-      "purpose": "visit",
-      "x": 27,
-      "y": 52,
-      "radius": 4,
-      "district": "LEFT - RESIDENTIAL",
-      "notes": "layer=1; category=residential; parent=L0_CENTER; children=L2_LEFT_1,L2_LEFT_2,L2_LEFT_3,L2_LEFT_4"
-    },
-    {
-      "id": "L2_LEFT_1",
-      "name": "Green Community Park",
-      "type": "poi",
-      "purpose": "play",
-      "x": 12,
-      "y": 31,
-      "radius": 3,
-      "district": "LEFT - PARK",
-      "notes": "layer=2; category=park; parent=L1_LEFT; children=L3_LEFT_1_1,L3_LEFT_1_2,L3_LEFT_1_3,L3_LEFT_1_4"
-    },
-    {
-      "id": "L3_LEFT_1_1",
-      "name": "Market Shed",
-      "type": "poi",
-      "purpose": "shop",
-      "x": 7,
-      "y": 28,
-      "radius": 3,
-      "district": "LEFT - MARKET",
-      "notes": "layer=3; category=market; parent=L2_LEFT_1; children=none"
-    },
-    {
-      "id": "L3_LEFT_1_2",
-      "name": "Picnic Pavilion",
-      "type": "poi",
-      "purpose": "play",
-      "x": 11,
-      "y": 31,
-      "radius": 3,
-      "district": "LEFT - PARK",
-      "notes": "layer=3; category=park; parent=L2_LEFT_1; children=none"
-    },
-    {
-      "id": "L3_LEFT_1_3",
-      "name": "Garden Barn",
-      "type": "poi",
-      "purpose": "play",
-      "x": 26,
-      "y": 29,
-      "radius": 3,
-      "district": "LEFT - PARK",
-      "notes": "layer=3; category=park; parent=L2_LEFT_1; children=none"
-    },
-    {
-      "id": "L3_LEFT_1_4",
-      "name": "Recycling Corner",
-      "type": "poi",
-      "purpose": "service",
-      "x": 8,
-      "y": 34,
-      "radius": 3,
-      "district": "LEFT - SERVICE",
-      "notes": "layer=3; category=service; parent=L2_LEFT_1; children=none"
-    },
-    {
-      "id": "L2_LEFT_2",
-      "name": "Residential Block",
-      "type": "poi",
-      "purpose": "visit",
-      "x": 13,
-      "y": 51,
-      "radius": 3,
-      "district": "LEFT - RESIDENTIAL",
-      "notes": "layer=2; category=residential; parent=L1_LEFT; children=L3_LEFT_2_1,L3_LEFT_2_2,L3_LEFT_2_3,L3_LEFT_2_4"
-    },
-    {
-      "id": "L3_LEFT_2_1",
-      "name": "Large Residence",
-      "type": "poi",
-      "purpose": "visit",
-      "x": 4,
-      "y": 46,
-      "radius": 3,
-      "district": "LEFT - RESIDENTIAL",
-      "notes": "layer=3; category=residential; parent=L2_LEFT_2; children=none"
-    },
-    {
-      "id": "L3_LEFT_2_2",
-      "name": "Family House",
-      "type": "poi",
-      "purpose": "visit",
-      "x": 10,
-      "y": 46,
-      "radius": 3,
-      "district": "LEFT - RESIDENTIAL",
-      "notes": "layer=3; category=residential; parent=L2_LEFT_2; children=none"
-    },
-    {
-      "id": "L3_LEFT_2_3",
-      "name": "Camera Shop",
-      "type": "poi",
-      "purpose": "shop",
-      "x": 4,
-      "y": 52,
-      "radius": 3,
-      "district": "LEFT - SHOPPING",
-      "notes": "layer=3; category=shopping; parent=L2_LEFT_2; children=none"
-    },
-    {
-      "id": "L3_LEFT_2_4",
-      "name": "Parking Lot",
-      "type": "poi",
-      "purpose": "work",
-      "x": 11,
-      "y": 53,
-      "radius": 3,
-      "district": "LEFT - TRANSPORT",
-      "notes": "layer=3; category=transport; parent=L2_LEFT_2; children=none"
-    },
-    {
-      "id": "L2_LEFT_3",
-      "name": "Justice & Finance Square",
-      "type": "poi",
-      "purpose": "visit",
-      "x": 12,
-      "y": 70,
-      "radius": 3,
-      "district": "LEFT - CIVIC",
-      "notes": "layer=2; category=civic; parent=L1_LEFT; children=L3_LEFT_3_1,L3_LEFT_3_2,L3_LEFT_3_3,L3_LEFT_3_4"
-    },
-    {
-      "id": "L3_LEFT_3_1",
-      "name": "Post Office",
-      "type": "poi",
-      "purpose": "visit",
-      "x": 4,
-      "y": 65,
-      "radius": 3,
-      "district": "LEFT - CIVIC",
-      "notes": "layer=3; category=civic; parent=L2_LEFT_3; children=none"
-    },
-    {
-      "id": "L3_LEFT_3_2",
-      "name": "Museum Courthouse",
-      "type": "poi",
-      "purpose": "visit",
-      "x": 11,
-      "y": 66,
-      "radius": 3,
-      "district": "LEFT - CIVIC",
-      "notes": "layer=3; category=civic; parent=L2_LEFT_3; children=none"
-    },
-    {
-      "id": "L3_LEFT_3_3",
-      "name": "Jail",
-      "type": "poi",
-      "purpose": "visit",
-      "x": 5,
-      "y": 75,
-      "radius": 3,
-      "district": "LEFT - CIVIC",
-      "notes": "layer=3; category=civic; parent=L2_LEFT_3; children=none"
-    },
-    {
-      "id": "L3_LEFT_3_4",
-      "name": "Bank",
-      "type": "poi",
-      "purpose": "service",
-      "x": 27,
-      "y": 68,
-      "radius": 3,
-      "district": "LEFT - FINANCE",
-      "notes": "layer=3; category=finance; parent=L2_LEFT_3; children=none"
-    },
-    {
-      "id": "L2_LEFT_4",
-      "name": "Community Services Corner",
-      "type": "poi",
-      "purpose": "service",
-      "x": 8,
-      "y": 88,
-      "radius": 3,
-      "district": "LEFT - SERVICE",
-      "notes": "layer=2; category=service; parent=L1_LEFT; children=L3_LEFT_4_1,L3_LEFT_4_2,L3_LEFT_4_3,L3_LEFT_4_4"
-    },
-    {
-      "id": "L3_LEFT_4_1",
-      "name": "Dentist Clinic",
-      "type": "poi",
-      "purpose": "service",
-      "x": 4,
-      "y": 86,
-      "radius": 3,
-      "district": "LEFT - HEALTH",
-      "notes": "layer=3; category=health; parent=L2_LEFT_4; children=none"
-    },
-    {
-      "id": "L3_LEFT_4_2",
-      "name": "Small Clinic",
-      "type": "poi",
-      "purpose": "service",
-      "x": 12,
-      "y": 84,
-      "radius": 3,
-      "district": "LEFT - HEALTH",
-      "notes": "layer=3; category=health; parent=L2_LEFT_4; children=none"
-    },
-    {
-      "id": "L3_LEFT_4_3",
-      "name": "Community Help Desk",
-      "type": "poi",
-      "purpose": "service",
-      "x": 5,
-      "y": 93,
-      "radius": 3,
-      "district": "LEFT - SERVICE",
-      "notes": "layer=3; category=service; parent=L2_LEFT_4; children=none"
-    },
-    {
-      "id": "L3_LEFT_4_4",
-      "name": "ATM Kiosk",
-      "type": "poi",
-      "purpose": "service",
-      "x": 12,
-      "y": 94,
-      "radius": 3,
-      "district": "LEFT - FINANCE",
-      "notes": "layer=3; category=finance; parent=L2_LEFT_4; children=none"
-    }
+    {"id":"L0_CENTER","name":"School","type":"center","purpose":"road","x":50,"y":60,"radius":5,"district":"CITY CENTER","notes":"layer=0; category=civic; parent=none; children=L1_TOP,L1_RIGHT,L1_BOTTOM,L1_LEFT"},
+    {"id":"L1_TOP","name":"Gym","type":"poi","purpose":"play","x":60.7,"y":47.5,"radius":4,"district":"CITY CENTER","notes":"layer=1; category=market; parent=L0_CENTER; children=L2_TOP_1,L2_TOP_2,L2_TOP_3,L2_TOP_4"},
+    {"id":"L2_TOP_1","name":"Health Spa","type":"poi","purpose":"service","x":8.3,"y":5.6,"radius":3,"district":"TOP - SERVICE","notes":"layer=2; category=service; parent=L1_TOP; children=L3_TOP_1_1,L3_TOP_1_2,L3_TOP_1_3,L3_TOP_1_4"},
+    {"id":"L3_TOP_1_1","name":"Jewelry Store","type":"poi","purpose":"shop","x":10.1,"y":15.2,"radius":3,"district":"TOP - SERVICE","notes":"layer=3; category=service; parent=L2_TOP_1; children=none"},
+    {"id":"L3_TOP_1_2","name":"Beauty Salon","type":"poi","purpose":"service","x":16.3,"y":5.7,"radius":3,"district":"TOP - SERVICE","notes":"layer=3; category=service; parent=L2_TOP_1; children=none"},
+    {"id":"L3_TOP_1_3","name":"Barbershop","type":"poi","purpose":"service","x":23,"y":5,"radius":3,"district":"TOP - SERVICE","notes":"layer=3; category=service; parent=L2_TOP_1; children=none"},
+    {"id":"L3_TOP_1_4","name":"Mall","type":"poi","purpose":"shop","x":50.9,"y":32.9,"radius":3,"district":"CITY CENTER","notes":"layer=3; category=service; parent=L2_TOP_1; children=none"},
+    {"id":"L2_TOP_2","name":"Arcade","type":"poi","purpose":"play","x":53.3,"y":11.3,"radius":3,"district":"TOP - MARKET","notes":"layer=2; category=market; parent=L1_TOP; children=L3_TOP_2_1,L3_TOP_2_2,L3_TOP_2_3,L3_TOP_2_4"},
+    {"id":"L3_TOP_2_1","name":"Supermarket","type":"poi","purpose":"shop","x":35,"y":4,"radius":3,"district":"TOP - MARKET","notes":"layer=3; category=market; parent=L2_TOP_2; children=none"},
+    {"id":"L3_TOP_2_2","name":"Fruit Shop","type":"poi","purpose":"shop","x":34,"y":11,"radius":3,"district":"TOP - MARKET","notes":"layer=3; category=market; parent=L2_TOP_2; children=none"},
+    {"id":"L3_TOP_2_3","name":"Butcher Shop","type":"poi","purpose":"shop","x":43,"y":4,"radius":3,"district":"TOP - MARKET","notes":"layer=3; category=market; parent=L2_TOP_2; children=none"},
+    {"id":"L3_TOP_2_4","name":"Cafe","type":"poi","purpose":"eat","x":43,"y":10,"radius":3,"district":"TOP - FOOD","notes":"layer=3; category=food; parent=L2_TOP_2; children=none"},
+    {"id":"L2_TOP_3","name":"Billiards","type":"poi","purpose":"play","x":59,"y":11.6,"radius":3,"district":"TOP - ENTERTAINMENT","notes":"layer=2; category=entertainment; parent=L1_TOP; children=L3_TOP_3_1,L3_TOP_3_2,L3_TOP_3_3,L3_TOP_3_4"},
+    {"id":"L3_TOP_3_1","name":"Fashion Store","type":"poi","purpose":"shop","x":35,"y":20.9,"radius":3,"district":"TOP - SHOPPING","notes":"layer=3; category=shopping; parent=L2_TOP_3; children=none"},
+    {"id":"L3_TOP_3_2","name":"Restaurant","type":"poi","purpose":"eat","x":47,"y":20,"radius":3,"district":"TOP - FOOD","notes":"layer=3; category=food; parent=L2_TOP_3; children=none"},
+    {"id":"L3_TOP_3_3","name":"Playground Slide","type":"poi","purpose":"play","x":57.6,"y":21,"radius":3,"district":"TOP - PARK","notes":"layer=3; category=park; parent=L2_TOP_3; children=none"},
+    {"id":"L3_TOP_3_4","name":"Bar","type":"poi","purpose":"social","x":69,"y":21,"radius":3,"district":"TOP - FOOD","notes":"layer=3; category=food; parent=L2_TOP_3; children=none"},
+    {"id":"L2_TOP_4","name":"Love Hotel","type":"poi","purpose":"rest","x":78.8,"y":4.5,"radius":3,"district":"TOP - ENTERTAINMENT","notes":"layer=2; category=entertainment; parent=L1_TOP; children=L3_TOP_4_1,L3_TOP_4_2,L3_TOP_4_3,L3_TOP_4_4"},
+    {"id":"L3_TOP_4_1","name":"Toy Store","type":"poi","purpose":"shop","x":53.2,"y":5,"radius":3,"district":"TOP - SHOPPING","notes":"layer=3; category=shopping; parent=L2_TOP_4; children=none"},
+    {"id":"L3_TOP_4_2","name":"Game Time","type":"poi","purpose":"play","x":60,"y":5,"radius":3,"district":"TOP - ENTERTAINMENT","notes":"layer=3; category=entertainment; parent=L2_TOP_4; children=none"},
+    {"id":"L3_TOP_4_3","name":"Karaoke","type":"poi","purpose":"play","x":69,"y":5,"radius":3,"district":"TOP - ENTERTAINMENT","notes":"layer=3; category=entertainment; parent=L2_TOP_4; children=none"},
+    {"id":"L3_TOP_4_4","name":"Night Club","type":"poi","purpose":"social","x":73.3,"y":4.6,"radius":3,"district":"TOP - ENTERTAINMENT","notes":"layer=3; category=entertainment; parent=L2_TOP_4; children=none"},
+    {"id":"L1_RIGHT","name":"Laundry","type":"poi","purpose":"service","x":74.3,"y":55.9,"radius":4,"district":"RIGHT - CIVIC","notes":"layer=1; category=civic; parent=L0_CENTER; children=L2_RIGHT_1,L2_RIGHT_2,L2_RIGHT_3,L2_RIGHT_4"},
+    {"id":"L2_RIGHT_1","name":"Casino","type":"poi","purpose":"play","x":85.3,"y":4.9,"radius":3,"district":"TOP - ENTERTAINMENT","notes":"layer=2; category=health; parent=L1_RIGHT; children=L3_RIGHT_1_1,L3_RIGHT_1_2,L3_RIGHT_1_3,L3_RIGHT_1_4"},
+    {"id":"L3_RIGHT_1_1","name":"Ambulance","type":"poi","purpose":"work","x":86,"y":19,"radius":3,"district":"RIGHT - TRANSPORT","notes":"layer=3; category=transport; parent=L2_RIGHT_1; children=none"},
+    {"id":"L3_RIGHT_1_2","name":"Pharmacy","type":"poi","purpose":"service","x":93,"y":18,"radius":3,"district":"RIGHT - HEALTH","notes":"layer=3; category=health; parent=L2_RIGHT_1; children=none"},
+    {"id":"L3_RIGHT_1_3","name":"Hospital","type":"poi","purpose":"service","x":75,"y":31.9,"radius":3,"district":"RIGHT - HEALTH","notes":"layer=3; category=health; parent=L2_RIGHT_1; children=none"},
+    {"id":"L3_RIGHT_1_4","name":"Lab","type":"poi","purpose":"work","x":94,"y":28,"radius":3,"district":"RIGHT - HEALTH","notes":"layer=3; category=health; parent=L2_RIGHT_1; children=none"},
+    {"id":"L2_RIGHT_2","name":"Sports Park","type":"poi","purpose":"play","x":83.9,"y":39.7,"radius":3,"district":"RIGHT - PARK","notes":"layer=2; category=park; parent=L1_RIGHT; children=L3_RIGHT_2_1,L3_RIGHT_2_2,L3_RIGHT_2_3,L3_RIGHT_2_4"},
+    {"id":"L3_RIGHT_2_1","name":"Helipad","type":"poi","purpose":"work","x":86,"y":28,"radius":3,"district":"RIGHT - TRANSPORT","notes":"layer=3; category=transport; parent=L2_RIGHT_2; children=none"},
+    {"id":"L3_RIGHT_2_2","name":"Football Pitch","type":"poi","purpose":"play","x":74.9,"y":42.4,"radius":3,"district":"RIGHT - PARK","notes":"layer=3; category=park; parent=L2_RIGHT_2; children=none"},
+    {"id":"L3_RIGHT_2_3","name":"Swimming Pool","type":"poi","purpose":"play","x":89.3,"y":39.4,"radius":3,"district":"RIGHT - PARK","notes":"layer=3; category=park; parent=L2_RIGHT_2; children=none"},
+    {"id":"L3_RIGHT_2_4","name":"Picnic Seating Area","type":"poi","purpose":"play","x":89.5,"y":48,"radius":3,"district":"RIGHT - PARK","notes":"layer=3; category=park; parent=L2_RIGHT_2; children=none"},
+    {"id":"L2_RIGHT_3","name":"Pet Grooming","type":"poi","purpose":"service","x":85.4,"y":64.4,"radius":3,"district":"RIGHT - SHOPPING","notes":"layer=2; category=shopping; parent=L1_RIGHT; children=L3_RIGHT_3_1,L3_RIGHT_3_2,L3_RIGHT_3_3,L3_RIGHT_3_4"},
+    {"id":"L3_RIGHT_3_1","name":"Shower","type":"poi","purpose":"service","x":96.2,"y":40,"radius":3,"district":"RIGHT - PARK","notes":"layer=3; category=shopping; parent=L2_RIGHT_3; children=none"},
+    {"id":"L3_RIGHT_3_2","name":"Public Restroom","type":"poi","purpose":"service","x":85.1,"y":56.5,"radius":3,"district":"RIGHT - SERVICE","notes":"layer=3; category=service; parent=L2_RIGHT_3; children=none"},
+    {"id":"L3_RIGHT_3_3","name":"Sauna","type":"poi","purpose":"service","x":92.5,"y":64.6,"radius":3,"district":"RIGHT - SHOPPING","notes":"layer=3; category=shopping; parent=L2_RIGHT_3; children=none"},
+    {"id":"L3_RIGHT_3_4","name":"Storage Warehouse","type":"poi","purpose":"work","x":92.1,"y":56.5,"radius":3,"district":"RIGHT - LOGISTICS","notes":"layer=3; category=logistics; parent=L2_RIGHT_3; children=none"},
+    {"id":"L2_RIGHT_4","name":"Body Repair","type":"poi","purpose":"work","x":74.4,"y":68.2,"radius":3,"district":"RIGHT - TRANSPORT","notes":"layer=2; category=transport; parent=L1_RIGHT; children=L3_RIGHT_4_1,L3_RIGHT_4_2,L3_RIGHT_4_3,L3_RIGHT_4_4"},
+    {"id":"L3_RIGHT_4_1","name":"Petrol Station","type":"poi","purpose":"work","x":85.6,"y":74.1,"radius":3,"district":"RIGHT - TRANSPORT","notes":"layer=3; category=transport; parent=L2_RIGHT_4; children=none"},
+    {"id":"L3_RIGHT_4_2","name":"Carwash","type":"poi","purpose":"work","x":92.6,"y":74.6,"radius":3,"district":"RIGHT - INDUSTRY","notes":"layer=3; category=industry; parent=L2_RIGHT_4; children=none"},
+    {"id":"L3_RIGHT_4_3","name":"Car Showroom","type":"poi","purpose":"shop","x":85.3,"y":82.5,"radius":3,"district":"RIGHT - TRANSPORT","notes":"layer=3; category=transport; parent=L2_RIGHT_4; children=none"},
+    {"id":"L3_RIGHT_4_4","name":"Dealership","type":"poi","purpose":"shop","x":94.2,"y":83.3,"radius":3,"district":"RIGHT - TRANSPORT","notes":"layer=3; category=transport; parent=L2_RIGHT_4; children=none"},
+    {"id":"L1_BOTTOM","name":"Office","type":"poi","purpose":"work","x":40.8,"y":46.6,"radius":4,"district":"CITY CENTER","notes":"layer=1; category=education; parent=L0_CENTER; children=L2_BOTTOM_1,L2_BOTTOM_2,L2_BOTTOM_3,L2_BOTTOM_4"},
+    {"id":"L2_BOTTOM_1","name":"Webinar","type":"poi","purpose":"visit","x":34,"y":84,"radius":3,"district":"BOTTOM - EDUCATION","notes":"layer=2; category=education; parent=L1_BOTTOM; children=L3_BOTTOM_1_1,L3_BOTTOM_1_2,L3_BOTTOM_1_3,L3_BOTTOM_1_4"},
+    {"id":"L3_BOTTOM_1_1","name":"Library","type":"poi","purpose":"visit","x":36,"y":75,"radius":3,"district":"BOTTOM - EDUCATION","notes":"layer=3; category=education; parent=L2_BOTTOM_1; children=none"},
+    {"id":"L3_BOTTOM_1_2","name":"Bookstore","type":"poi","purpose":"shop","x":27,"y":83,"radius":3,"district":"BOTTOM - SHOPPING","notes":"layer=3; category=shopping; parent=L2_BOTTOM_1; children=none"},
+    {"id":"L3_BOTTOM_1_3","name":"Private Course","type":"poi","purpose":"visit","x":26.1,"y":92.3,"radius":3,"district":"BOTTOM - EDUCATION","notes":"layer=3; category=education; parent=L2_BOTTOM_1; children=none"},
+    {"id":"L3_BOTTOM_1_4","name":"Stationery","type":"poi","purpose":"shop","x":33.6,"y":92.1,"radius":3,"district":"BOTTOM - SHOPPING","notes":"layer=3; category=shopping; parent=L2_BOTTOM_1; children=none"},
+    {"id":"L2_BOTTOM_2","name":"Counseling","type":"poi","purpose":"service","x":41.6,"y":88.5,"radius":3,"district":"BOTTOM - RELIGION","notes":"layer=2; category=religion; parent=L1_BOTTOM; children=L3_BOTTOM_2_1,L3_BOTTOM_2_2,L3_BOTTOM_2_3,L3_BOTTOM_2_4"},
+    {"id":"L3_BOTTOM_2_1","name":"Church","type":"poi","purpose":"visit","x":45,"y":76,"radius":3,"district":"BOTTOM - RELIGION","notes":"layer=3; category=religion; parent=L2_BOTTOM_2; children=none"},
+    {"id":"L3_BOTTOM_2_2","name":"Masjid","type":"poi","purpose":"visit","x":48.2,"y":88.4,"radius":3,"district":"BOTTOM - RELIGION","notes":"layer=3; category=religion; parent=L2_BOTTOM_2; children=none"},
+    {"id":"L3_BOTTOM_2_3","name":"Graveyard","type":"poi","purpose":"visit","x":48.5,"y":95.8,"radius":3,"district":"BOTTOM - RELIGION","notes":"layer=3; category=religion; parent=L2_BOTTOM_2; children=none"},
+    {"id":"L3_BOTTOM_2_4","name":"Temple Shrine","type":"poi","purpose":"visit","x":42,"y":95.8,"radius":3,"district":"BOTTOM - RELIGION","notes":"layer=3; category=religion; parent=L2_BOTTOM_2; children=none"},
+    {"id":"L2_BOTTOM_3","name":"Inn","type":"poi","purpose":"rest","x":56.9,"y":88.4,"radius":3,"district":"BOTTOM - EDUCATION","notes":"layer=2; category=education; parent=L1_BOTTOM; children=L3_BOTTOM_3_1,L3_BOTTOM_3_2,L3_BOTTOM_3_3,L3_BOTTOM_3_4"},
+    {"id":"L3_BOTTOM_3_1","name":"College","type":"poi","purpose":"visit","x":56.7,"y":76,"radius":3,"district":"BOTTOM - EDUCATION","notes":"layer=3; category=education; parent=L2_BOTTOM_3; children=none"},
+    {"id":"L3_BOTTOM_3_2","name":"Bike","type":"poi","purpose":"visit","x":62.5,"y":95.1,"radius":3,"district":"BOTTOM - RESIDENTIAL","notes":"layer=3; category=residential; parent=L2_BOTTOM_3; children=none"},
+    {"id":"L3_BOTTOM_3_3","name":"Canteen","type":"poi","purpose":"eat","x":62,"y":88,"radius":3,"district":"BOTTOM - FOOD","notes":"layer=3; category=food; parent=L2_BOTTOM_3; children=none"},
+    {"id":"L3_BOTTOM_3_4","name":"Dorm","type":"poi","purpose":"rest","x":57,"y":96,"radius":3,"district":"BOTTOM - OFFICE","notes":"layer=3; category=office; parent=L2_BOTTOM_3; children=none"},
+    {"id":"L2_BOTTOM_4","name":"Tank","type":"poi","purpose":"visit","x":75.2,"y":95.5,"radius":3,"district":"BOTTOM - CIVIC","notes":"layer=2; category=civic; parent=L1_BOTTOM; children=L3_BOTTOM_4_1,L3_BOTTOM_4_2,L3_BOTTOM_4_3,L3_BOTTOM_4_4"},
+    {"id":"L3_BOTTOM_4_1","name":"Barrack","type":"poi","purpose":"work","x":66.2,"y":76.4,"radius":3,"district":"BOTTOM - CIVIC","notes":"layer=3; category=civic; parent=L2_BOTTOM_4; children=none"},
+    {"id":"L3_BOTTOM_4_2","name":"Training Ground","type":"poi","purpose":"play","x":70.2,"y":88.1,"radius":3,"district":"BOTTOM - PARK","notes":"layer=3; category=park; parent=L2_BOTTOM_4; children=none"},
+    {"id":"L3_BOTTOM_4_3","name":"HQ","type":"poi","purpose":"work","x":69.7,"y":96.3,"radius":3,"district":"BOTTOM - INDUSTRY","notes":"layer=3; category=industry; parent=L2_BOTTOM_4; children=none"},
+    {"id":"L3_BOTTOM_4_4","name":"Watch Tower","type":"poi","purpose":"work","x":75,"y":88.7,"radius":3,"district":"BOTTOM - UTILITY","notes":"layer=3; category=utility; parent=L2_BOTTOM_4; children=none"},
+    {"id":"L1_LEFT","name":"Police Station","type":"poi","purpose":"service","x":26,"y":57.5,"radius":4,"district":"LEFT - RESIDENTIAL","notes":"layer=1; category=residential; parent=L0_CENTER; children=L2_LEFT_1,L2_LEFT_2,L2_LEFT_3,L2_LEFT_4"},
+    {"id":"L2_LEFT_1","name":"Workshop","type":"poi","purpose":"work","x":13.5,"y":27.5,"radius":3,"district":"LEFT - PARK","notes":"layer=2; category=park; parent=L1_LEFT; children=L3_LEFT_1_1,L3_LEFT_1_2,L3_LEFT_1_3,L3_LEFT_1_4"},
+    {"id":"L3_LEFT_1_1","name":"Warehouse","type":"poi","purpose":"work","x":5.8,"y":27.3,"radius":3,"district":"LEFT - MARKET","notes":"layer=3; category=market; parent=L2_LEFT_1; children=none"},
+    {"id":"L3_LEFT_1_2","name":"Hut","type":"poi","purpose":"visit","x":13.2,"y":34,"radius":3,"district":"LEFT - PARK","notes":"layer=3; category=park; parent=L2_LEFT_1; children=none"},
+    {"id":"L3_LEFT_1_3","name":"Farm","type":"poi","purpose":"work","x":26,"y":29,"radius":3,"district":"LEFT - PARK","notes":"layer=3; category=park; parent=L2_LEFT_1; children=none"},
+    {"id":"L3_LEFT_1_4","name":"Recycling Corner","type":"poi","purpose":"work","x":6,"y":34.4,"radius":3,"district":"LEFT - SERVICE","notes":"layer=3; category=service; parent=L2_LEFT_1; children=none"},
+    {"id":"L2_LEFT_2","name":"House","type":"poi","purpose":"rest","x":51.1,"y":48.1,"radius":3,"district":"CITY CENTER","notes":"layer=2; category=residential; parent=L1_LEFT; children=L3_LEFT_2_1,L3_LEFT_2_2,L3_LEFT_2_3,L3_LEFT_2_4"},
+    {"id":"L3_LEFT_2_1","name":"Big House","type":"poi","purpose":"rest","x":4.8,"y":45.6,"radius":3,"district":"LEFT - RESIDENTIAL","notes":"layer=3; category=residential; parent=L2_LEFT_2; children=none"},
+    {"id":"L3_LEFT_2_2","name":"Small House","type":"poi","purpose":"rest","x":10,"y":46,"radius":3,"district":"LEFT - RESIDENTIAL","notes":"layer=3; category=residential; parent=L2_LEFT_2; children=none"},
+    {"id":"L3_LEFT_2_3","name":"Security Post","type":"poi","purpose":"work","x":4.5,"y":51.6,"radius":3,"district":"LEFT - SHOPPING","notes":"layer=3; category=shopping; parent=L2_LEFT_2; children=none"},
+    {"id":"L3_LEFT_2_4","name":"Parking Lot","type":"poi","purpose":"work","x":11.5,"y":51.8,"radius":3,"district":"LEFT - TRANSPORT","notes":"layer=3; category=transport; parent=L2_LEFT_2; children=none"},
+    {"id":"L2_LEFT_3","name":"Weapon Store","type":"poi","purpose":"shop","x":12.1,"y":73.4,"radius":3,"district":"LEFT - CIVIC","notes":"layer=2; category=civic; parent=L1_LEFT; children=L3_LEFT_3_1,L3_LEFT_3_2,L3_LEFT_3_3,L3_LEFT_3_4"},
+    {"id":"L3_LEFT_3_1","name":"Post Office","type":"poi","purpose":"service","x":5.3,"y":65.9,"radius":3,"district":"LEFT - CIVIC","notes":"layer=3; category=civic; parent=L2_LEFT_3; children=none"},
+    {"id":"L3_LEFT_3_2","name":"Law","type":"poi","purpose":"service","x":11.7,"y":64.4,"radius":3,"district":"LEFT - CIVIC","notes":"layer=3; category=civic; parent=L2_LEFT_3; children=none"},
+    {"id":"L3_LEFT_3_3","name":"Jail","type":"poi","purpose":"service","x":5.2,"y":73.8,"radius":3,"district":"LEFT - CIVIC","notes":"layer=3; category=civic; parent=L2_LEFT_3; children=none"},
+    {"id":"L3_LEFT_3_4","name":"Bank","type":"poi","purpose":"service","x":25.8,"y":68.9,"radius":3,"district":"LEFT - FINANCE","notes":"layer=3; category=finance; parent=L2_LEFT_3; children=none"},
+    {"id":"L2_LEFT_4","name":"Hotel","type":"poi","purpose":"rest","x":26.6,"y":40.6,"radius":3,"district":"LEFT - SERVICE","notes":"layer=2; category=service; parent=L1_LEFT; children=L3_LEFT_4_1,L3_LEFT_4_2,L3_LEFT_4_3,L3_LEFT_4_4"},
+    {"id":"L3_LEFT_4_1","name":"Insurance","type":"poi","purpose":"service","x":5.2,"y":84,"radius":3,"district":"LEFT - FINANCE","notes":"layer=3; category=health; parent=L2_LEFT_4; children=none"},
+    {"id":"L3_LEFT_4_2","name":"Tax","type":"poi","purpose":"service","x":12,"y":84,"radius":3,"district":"LEFT - FINANCE","notes":"layer=3; category=health; parent=L2_LEFT_4; children=none"},
+    {"id":"L3_LEFT_4_3","name":"Pawnshop","type":"poi","purpose":"shop","x":5.7,"y":91.5,"radius":3,"district":"LEFT - FINANCE","notes":"layer=3; category=service; parent=L2_LEFT_4; children=none"},
+    {"id":"L3_LEFT_4_4","name":"ATM","type":"poi","purpose":"service","x":12.3,"y":92.1,"radius":3,"district":"LEFT - FINANCE","notes":"layer=3; category=finance; parent=L2_LEFT_4; children=none"}
   ],
   "metadata": {
     "theme": "Downtown City Services",

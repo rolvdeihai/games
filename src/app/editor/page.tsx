@@ -1,3 +1,5 @@
+// src/app/editor/page.tsx
+
 'use client'
 
 import { useRef, useState, useCallback, useEffect, Suspense } from 'react'
